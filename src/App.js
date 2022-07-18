@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
       <nav className="m-7">
-        <div className="flex w-2/5 justify-center align-middle gap-3 m-auto rounded-md">
+        <div className="flex w-2/5 xsm:w-full justify-center align-middle gap-3 m-auto rounded-md">
           <li
             className="list-none text-lg p-5 rounder-md border-b-transparent rounded-md cursor-pointer border-b-4 border-transparent hover:bg-slate-100 hover:shadow-lg  active:border-b-4 active:border-blue-300"
             onClick={() => filterMenu("Breakfast")}

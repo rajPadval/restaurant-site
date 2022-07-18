@@ -3,7 +3,7 @@ import React from "react";
 const MenuCard = ({ menuData }) => {
   return (
     <>
-      <div className="grid w-fit m-auto grid-cols-3 p-3 gap-10 sm:grid-cols-1 md:grid-cols-2">
+      <div className="grid w-fit m-auto grid-cols-3 p-3 gap-10 xsm:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {menuData.map((props) => {
           // const [id, name, category, price] = curElem;
           return (
